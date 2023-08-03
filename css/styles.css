@@ -70,7 +70,7 @@
   letter-spacing: 0.06em;
   text-align: center;
 }
-.feature_title {
+.featureTitle {
   color: var(--text-color, black);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
