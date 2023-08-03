@@ -6,6 +6,11 @@
   --primary-color: rgba(47, 48, 58, 1);
   --webstudio-color: rgba(33, 150, 243, 1);
   --text-color: rgba(33, 33, 33, 1);
+  --paragraph-color: rgba(117, 117, 117, 1);
+  --filter-color: rgba(245, 244, 250, 1);
+}
+.list .link:hover {
+  color: var(--webstudio-color);
 }
 .link {
   text-decoration: none;
@@ -21,23 +26,126 @@
 .webstudio {
   color: var(--webstudio-color);
   font-family: 'Raleway', sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .textNavigation {
-  color: var(--text-color);
+  color: var(--text-color, black);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.list .linkNavigation {
+  color: var(--webstudio-color, rgb(30, 123, 185));
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 .whiteNavigation {
-  color: var(--main-color);
+  color: var(--main-color, white);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.grayNavigation {
+  color: rgb(255, 255, 255, 0.6);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .solutions {
-  color: var(--main-color);
+  color: var(--main-color, white);
   font-family: 'Roboto', sans-serif;
   font-size: 44px;
   font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
   text-align: center;
+}
+.feature_title {
+  color: var(--text-color, black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.feature {
+  color: var(--paragraph-color, black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.nosotros {
+  color: var(--text-color, black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.name {
+  color: var(--text-color, black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.profession {
+  color: var(--paragraph-color, black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.button {
+  background-color: var(--webstudio-color, rgb(30, 123, 185));
+  color: var(--main-color, white);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  border-style: none;
+}
+.list .button {
+  background-color: var(--filter-color, rgb(200, 206, 209));
+  color: var(--text-color, rgb(63, 53, 53));
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border-style: none;
+}
+.list .button:hover {
+  color: var(--main-color);
+  background-color: var(--webstudio-color);
+}
+.list .proyectTitle {
+  color: var(--text-color, black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.list .proyect {
+  color: var(--paragraph-color, black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
